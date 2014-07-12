@@ -6,6 +6,14 @@ for (i = 0; i < 1000; i++) {
   var newlyGeneratedNumber = Math.floor(Math.random()*1000);
   console.log(Math.floor(Math.random()*1000));
 
+  //check for duplicate numbers
+  var duplicateNumber = randomlyGeneratedNumbers.indexOf(i);
+  if (duplicateNumber != -1) {
+    //if duplicate found generate new number
+    newlyGeneratedNumber;
+  };//if not found, continue with loop
+  
   randomlyGeneratedNumbers.push(newlyGeneratedNumber);
 
 };
+console.log(randomlyGeneratedNumbers);
