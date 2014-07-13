@@ -32,3 +32,30 @@ console.log(randomlyGeneratedNumbers);
 
 // };
 // console.log(randomlyGeneratedNumbers);
+
+//##################
+// //array to hold 1000 numbes
+// var randomlyGeneratedNumbers = [];
+// //generate random numbers
+// for (i = 0; i <= 1000; i++) {
+// //push numbers from 1-1000 into randomlyGeneratedNumbers  
+// randomlyGeneratedNumbers.push(i);
+  
+//   //console.log(randomlyGeneratedNumbers);
+
+//   //generates random index for all 1000 numbers
+//   var randomIndex = Math.floor(Math.random()*1000);
+//   //value of number at randomly generated index
+//   var splicedRandomNumber = randomlyGeneratedNumbers.splice(randomIndex, 1);
+
+//   //log the number at generated index
+//   console.log(splicedRandomNumber);
+
+//   //console.log(randomIndex);
+
+//   //container where numbers will be added
+//   //var scrambledNumbers = [];
+//   // scrambledNumbers.push(splicedRandomNumber);
+
+//   //console.log(scrambledNumbers);
+// }
